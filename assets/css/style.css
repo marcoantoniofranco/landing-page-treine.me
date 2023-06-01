@@ -1,21 +1,29 @@
 body {
   margin: 0;
-  padding: 0;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .page {
-  /* border: 1px solid red; */
   width: 1000px;
   margin: 65px auto 0;
 }
 
-.header {
+nav {
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  margin-bottom: 55px;
 }
 
-.header nav ul {
+ul {
   list-style: none;
   display: flex;
-  gap: 40px;
+  gap: 48px;
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+ul {
+  font-family: 'Mulish', sans-serif;
 }
