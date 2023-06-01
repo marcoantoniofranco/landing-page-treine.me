@@ -1,0 +1,21 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.page {
+  /* border: 1px solid red; */
+  width: 1000px;
+  margin: 65px auto 0;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header nav ul {
+  list-style: none;
+  display: flex;
+  gap: 40px;
+}
