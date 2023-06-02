@@ -14,7 +14,11 @@ body {
 .page {
   width: 1000px;
   margin: 0 auto;
-  padding-top: 65px;
+  /* padding-top: 65px; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  min-height: 100vh;
 }
 
 nav {
